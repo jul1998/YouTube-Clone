@@ -13,7 +13,7 @@ useEffect(() => {
       setVideos(response.items);
     };
     fetchVideos();
-  }, []);
+  }, [selectedCategory]);
 
 
 
